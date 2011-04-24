@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d7f7ed;
+}
+
+img#banner {
+  width: 100%;
+}
+
+#shadow {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#container {
+  margin: 0 auto;
+  padding: 10px;
+  width: 800px;
+  background-color: #f7f7f7;
+  text-align: left;
+}
+
+@font-face {
+  font-family: 'TitilliumText22LMedium';
+  src: url('/fonts/TitilliumText22L004-webfont.eot');
+  src: url('/fonts/TitilliumText22L004-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/TitilliumText22L004-webfont.woff') format('woff'),
+    url('/fonts/TitilliumText22L004-webfont.ttf') format('truetype'),
+    url('/fonts/TitilliumText22L004-webfont.svg#TitilliumText22LMedium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'TitilliumText22LLight';
+  src: url('/fonts/TitilliumText22L002-webfont.eot');
+  src: url('/fonts/TitilliumText22L002-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/TitilliumText22L002-webfont.woff') format('woff'),
+    url('/fonts/TitilliumText22L002-webfont.ttf') format('truetype'),
+    url('/fonts/TitilliumText22L002-webfont.svg#TitilliumText22LLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'TitilliumText22LMedium', Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  color: #4c3843;
+  display: inline;
+}
+
+h2 {
+  font-family: 'TitilliumText22LLight', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  color: #4c3843;
+  display: inline;
+}
+
