@@ -28,7 +28,6 @@ body {
   display: none;
 }
 
-
 #footer {
   position: relative;
   margin-top: -14px;
@@ -76,6 +75,7 @@ img.floatLeft {
   vertical-align: middle;
   margin: 8px;
 }
+
 #container {
   margin: 0 auto;
   padding: 10px;
@@ -127,16 +127,20 @@ img.floatLeft {
 }
 
 h1 {
-  font-family: 'TitilliumText22LMedium', Helvetica, Arial, sans-serif;
-  font-size: 40px;
-  color: #f7f7f7;
+  font-family: 'TitilliumText22LLight', Helvetica, Arial, sans-serif;
+  font-size: 56px;
+  color: #ebebeb;
   display: inline;
+  line-height: 78px;
+  margin-top: 21px;
+  margin-bottom: 25px;
+  padding-bottom: 8px;
 }
 
 h2 {
   font-family: 'TitilliumText22LLight', Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  color: #f7f7f7;
+  font-size: 24px;
+  color: #f9ffc6;
   display: inline;
 }
 
