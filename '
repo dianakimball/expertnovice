@@ -68,14 +68,9 @@ img#banner {
 }
 
 img#logo {
-  width: 300px;
+  width: 50%;
 }
 
-img.floatLeft {
-  float: left;
-  vertical-align: middle;
-  margin: 8px;
-}
 #container {
   margin: 0 auto;
   padding: 10px;

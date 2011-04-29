@@ -17,18 +17,6 @@ body {
   padding-bottom: 14px;
 }
 
-#shadow {
-  margin: 0;
-  padding: 0;
-  background-color: rgba(0, 0, 0, 0.4);
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: none;
-}
-
-
 #footer {
   position: relative;
   margin-top: -14px;
@@ -67,15 +55,31 @@ img#banner {
   width: 100%;
 }
 
-img#logo {
-  width: 300px;
+img#dark {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
 }
 
-img.floatLeft {
-  float: left;
-  vertical-align: middle;
-  margin: 8px;
+#shadow {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
 }
+
+#inquire_within {
+  position: relative;
+} 
+
 #container {
   margin: 0 auto;
   padding: 10px;
@@ -83,6 +87,10 @@ img.floatLeft {
   background-color: #f7f7f7;
   text-align: left;
   overflow: hidden;
+}
+
+#contact {
+  display: none;
 }
 
 #intrigue {
@@ -129,20 +137,14 @@ img.floatLeft {
 h1 {
   font-family: 'TitilliumText22LMedium', Helvetica, Arial, sans-serif;
   font-size: 40px;
-  color: #f7f7f7;
+  color: #4c3843;
   display: inline;
 }
 
 h2 {
   font-family: 'TitilliumText22LLight', Helvetica, Arial, sans-serif;
   font-size: 20px;
-  color: #f7f7f7;
+  color: #4c3843;
   display: inline;
 }
 
-#overlay {
-  margin: 0 auto;
-  padding: 10px;
-  text-align: left;
-  overflow: hidden;
-}
