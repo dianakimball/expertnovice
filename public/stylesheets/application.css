@@ -28,40 +28,6 @@ body {
   display: none;
 }
 
-#footer {
-  position: relative;
-  margin-top: -14px;
-  height: 14px;
-  text-align: left;
-  clear:both;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #f7f7f7;
-  display: inline;
-  text-align: center;
-}
-
-#footer a {
-font-weight: bold;
-}
-
-#footer a:link {
-color: #f7f7f7;
-text-decoration: none;
-}
-#footer a:visited {
-color: #f7f7f7;
-text-decoration: none;
-}
-#footer a:hover {
-color: #f7f7f7;
-text-decoration: underline;
-}
-#footer a:active {
-color: #f7f7f7;
-text-decoration: none;
-}
-
 img#banner {
   width: 100%;
 }
@@ -89,12 +55,77 @@ img.floatLeft {
   overflow: hidden;
 }
 
-#intrigue {
-  font-family: 'TitilliumText22LXBold', Helvetica, Arial, sans-serif;
-  font-size: 24px;
-  color: #ffffff;
+h1 {
+  font-family: 'TitilliumText22LMedium', Helvetica, Arial, sans-serif;
+  font-size: 49px;
+  color: #716b6d;
   display: inline;
-  cursor: pointer;
+  line-height: 104px;
+  margin-top: 36px;
+  margin-bottom: 18px;
+  padding-bottom: 8px;
+}
+
+h2 {
+  font-family: 'TitilliumText22LLight', Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  color: #cd3a04;
+  display: inline;
+  padding: 8px;
+}
+
+#overlay {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+  overflow: hidden;
+}
+
+input, textarea {
+  font-size: 40px;
+  margin-left: 8px;
+  color: #716b6d;
+}
+
+#tellmemore {
+  margin-bottom: -9px;
+}
+
+#footer {
+  position: relative;
+  margin-top: -14px;
+  height: 14px;
+  text-align: left;
+  clear:both;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #4b4b4b;
+  display: inline;
+  text-align: center;
+}
+
+#footer a {
+font-weight: bold;
+}
+
+#footer a:link {
+color: #4b4b4b;
+text-decoration: none;
+}
+
+#footer a:visited {
+color: #4b4b4b;
+text-decoration: none;
+}
+
+#footer a:hover {
+color: #4b4b4b;
+text-decoration: underline;
+}
+
+#footer a:active {
+color: #4b4b4b;
+text-decoration: none;
 }
 
 @font-face {
@@ -128,39 +159,4 @@ img.floatLeft {
     url('/fonts/TitilliumText22L006-webfont.svg#TitilliumText22LXBold') format('svg');
   font-weight: normal;
   font-style: normal;
-}
-
-h1 {
-  font-family: 'TitilliumText22LMedium', Helvetica, Arial, sans-serif;
-  font-size: 49px;
-  color: #716b6d;
-  display: inline;
-  line-height: 104px;
-  margin-top: 36px;
-  margin-bottom: 18px;
-  padding-bottom: 8px;
-}
-
-h2 {
-  font-family: 'TitilliumText22LLight', Helvetica, Arial, sans-serif;
-  font-size: 25px;
-  color: #cd3a04;
-  display: inline;
-  padding: 8px;
-}
-
-#overlay {
-  margin: 0 auto;
-  padding: 10px;
-  text-align: left;
-  overflow: hidden;
-}
-
-input, textarea {
-  font-size: 40px;
-  margin-left: 8px;
-}
-
-#tellmemore {
-  margin-bottom: -9px;
 }
