@@ -11,7 +11,7 @@ post '/form' do
   options = {
     :id            => '7577694b51',
     :email_address => "#{params[:email]}",
-    :double_optin  => true,
+    :double_optin  => false,
     :send_welcome  => true,
   }
   gibbon.list_subscribe(options)
