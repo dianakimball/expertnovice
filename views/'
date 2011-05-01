@@ -27,8 +27,8 @@
         <p><h1>is a whirlwind consultancy.</h1></p>
         <p><h2>We make great projects better by giving the most constructive feedback ever.</h2></p>
         <br/>
-        <form method="post" action="/form">  
-          <input type="text" placeholder="email" name="email">  
+        <form>  
+          <input type="text" placeholder="email" name="post[email]">  
           <input type="image" name="tellmemore" id="tellmemore" src="images/tellmemore.png">  
         </form>
       <a href="http://blog.expertnovice.com"><img id="blog" src="images/take_me_to_the_blog_small_arrow_white.png"></a>      

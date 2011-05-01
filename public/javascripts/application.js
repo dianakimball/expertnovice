@@ -7,10 +7,12 @@ function resize_shadow() {
 
 $(function() {
   setTimeout(function() {
-  resize_shadow(10).fadeIn(5000);
-  }, 2000);
+    // TODO: Reset fadeIn to 10000
+    resize_shadow(10).fadeIn(0);
+  // TODO: Reset to 2000
+  }, 0);
   $(window).resize(function() {
-  resize_shadow();
+    resize_shadow();
   });
 });
 
