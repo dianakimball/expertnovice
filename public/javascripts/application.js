@@ -7,8 +7,8 @@ function resize_shadow() {
 
 $(function() {
   setTimeout(function() {
-    resize_shadow(10).fadeIn(5000);
-  }, 2000);
+    resize_shadow(10).fadeIn(3000);
+  }, 500);
   $(window).resize(function() {
     resize_shadow();
   });
