@@ -33,7 +33,7 @@ img#banner {
 }
 
 img#logo {
-  width: 300px;
+  width: 250px;
 }
 
 img#blog {
@@ -57,18 +57,15 @@ img.floatLeft {
 
 h1 {
   font-family: 'TitilliumText22LMedium', Helvetica, Arial, sans-serif;
-  font-size: 49px;
+  font-size: 45px;
   color: #716b6d;
   display: inline;
-  line-height: 104px;
-  margin-top: 36px;
-  margin-bottom: 18px;
-  padding-bottom: 8px;
+  line-height: 90px;
 }
 
 h2 {
   font-family: 'TitilliumText22LLight', Helvetica, Arial, sans-serif;
-  font-size: 25px;
+  font-size: 22px;
   color: #cd3a04;
   display: inline;
   padding: 8px;
