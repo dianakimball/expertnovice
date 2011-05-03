@@ -79,13 +79,16 @@ h2 {
 }
 
 input, textarea {
-  font-size: 40px;
+  font-size: 32px;
   margin-left: 8px;
+  margin-top: -8px;
+  padding: 4px;
   color: #716b6d;
 }
 
 #tellmemore {
-  margin-bottom: -9px;
+  margin-bottom: -18px;
+
 }
 
 #footer {
