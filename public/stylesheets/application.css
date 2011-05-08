@@ -69,6 +69,7 @@ h2 {
   color: #cd3a04;
   display: inline;
   padding: 8px;
+  text-shadow: 0 0 10px #9BE1D7;
 }
 
 #overlay {
