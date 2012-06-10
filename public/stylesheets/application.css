@@ -4,15 +4,15 @@
     margin: 0;
     padding: 0;
   }
-  
-  body { 
+
+  body {
     background: #9be1d7;
     font-family: 'TitilliumText22LLight', Helvetica, Arial, sans-serif;
     padding: 30px 18px 15px;
     font-size: 14px;
     color: #716B6D;
   }
-  
+
   a {
     color: #716B6D;
     text-decoration: none;
@@ -46,14 +46,14 @@
       text-indent: -9999px;
       margin: -13px 8px -8px 0;
     }
-  
+
   h2 {
     color: #CD3A04;
     font-size: 22px;
     clear: both;
     text-shadow: 0 0 10px #9BE1D7, 0 0 10px #9BE1D7, 0 0 10px #9BE1D7;
   }
-  
+
   h3 a {
     display: block;
     background: url(../images/and_take_me_to_the_blog.png) no-repeat top left;
@@ -61,7 +61,7 @@
     height: 53px;
     text-indent: -9999px;
   }
-  
+
   form {
     margin: 15px 0;
   }
@@ -102,7 +102,7 @@
     font-weight: normal;
     font-style: normal;
   }
-  
+
   @font-face {
     font-family: 'TitilliumText22LLight';
     src: url('../fonts/TitilliumText22L002-webfont.eot');
