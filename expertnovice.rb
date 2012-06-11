@@ -7,12 +7,12 @@ end
 
 post '/form' do
   require 'gibbon'
-  gibbon = Gibbon::API.new('e0fd1a1da8203273f0d7374de97d47a8-us2')
+  gibbon = Gibbon.new('e0fd1a1da8203273f0d7374de97d47a8-us2')
   options = {
     :id            => '7577694b51',
     :email_address => "#{params[:email]}",
     :double_optin  => false,
-    :send_welcome  => true,
+    :send_welcome  => false,
   }
   gibbon.list_subscribe(options)
   redirect 'http://blog.expertnovice.com'
